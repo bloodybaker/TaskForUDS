@@ -27,7 +27,7 @@ using System.Collections.Generic;
                 }
 
                 Console.WriteLine("==========================");
-                for (int i = 0; i < dayCount; i++)
+                for (int i = 0; i < dayCount+1; i++)
                 {
                     dateTimes.Add(startDate.AddDays(i));
                 }
